@@ -51,7 +51,7 @@ await git.addConfig('user.email', 'wizewealth.ai@gmail.com');
 await git.addRemote('origin', 'https://github.com/WizeWealth/wizewealth-pricefetch.git').catch(() => {});
 
     await git.commit(`🔄 Update stock prices @ ${new Date().toLocaleString("en-IN")}`);
-    await git.push('origin', 'main');
+    await git.push('https://wizewealth:' + process.env.GITHUB_TOKEN + '@github.com/WizeWealth/wizewealth-pricefetch.git');
 
     console.log("✅ Stock prices pushed to GitHub.");
 
