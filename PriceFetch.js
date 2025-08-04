@@ -54,7 +54,7 @@ cron.schedule('0 10,12,14,16 * * 1-5', fetchPrices, {
 });
 
 // TEST RUN at 7:20 PM IST
-cron.schedule('24 19 * * *', fetchPrices, {
+cron.schedule('07 20 * * *', fetchPrices, {
   timezone: 'Asia/Kolkata'
 });
 
