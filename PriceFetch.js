@@ -45,6 +45,9 @@ async function fetchPrices() {
 
     // Commit and push to GitHub
     await git.add(OUTPUT_PATH);
+    await git.addConfig('user.name', 'WizeBot Auto Commit');
+await git.addConfig('user.email', 'wizewealth.ai@gmail.com');
+
     await git.commit(`🔄 Update stock prices @ ${new Date().toLocaleString("en-IN")}`);
     await git.push();
 
