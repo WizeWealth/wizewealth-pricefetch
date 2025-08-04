@@ -1,7 +1,7 @@
 {
     "name": "price-fetch",
     "version": "1.0.0",
-    "main": "fetchAndSavePrices.js",
+    "main": "PriceFetch.js",
     "type": "module",
     "scripts": {
       "start": "node PriceFetch.js"
