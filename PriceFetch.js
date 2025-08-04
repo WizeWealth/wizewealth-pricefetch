@@ -47,6 +47,8 @@ async function fetchPrices() {
     await git.add(OUTPUT_PATH);
     await git.addConfig('user.name', 'WizeBot Auto Commit');
 await git.addConfig('user.email', 'wizewealth.ai@gmail.com');
+    // Ensure remote 'origin' is set (safe even if already exists)
+await git.addRemote('origin', 'https://github.com/WizeWealth/wizewealth-pricefetch.git').catch(() => {});
 
     await git.commit(`🔄 Update stock prices @ ${new Date().toLocaleString("en-IN")}`);
     await git.push();
