@@ -53,5 +53,10 @@ cron.schedule('0 10,12,14,16 * * 1-5', fetchPrices, {
   timezone: 'Asia/Kolkata'
 });
 
+// TEST RUN at 7:20 PM IST
+cron.schedule('21 19 * * *', fetchPrices, {
+  timezone: 'Asia/Kolkata'
+});
+
 console.log("🕒 Stock price cron job scheduled (Mon–Fri, 10AM–4PM IST)");
 
