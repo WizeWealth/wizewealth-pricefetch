@@ -1,0 +1,14 @@
+{
+    "name": "price-fetch",
+    "version": "1.0.0",
+    "main": "fetchAndSavePrices.js",
+    "type": "module",
+    "scripts": {
+      "start": "node PriceFetch.js"
+    },
+    "dependencies": {
+      "axios": "^1.6.0",
+      "fs-extra": "^11.1.1"
+    }
+  }
+  
