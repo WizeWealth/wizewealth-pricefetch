@@ -65,7 +65,5 @@ cron.schedule('0 10,12,14,16 * * 1-5', fetchPrices, {
   timezone: 'Asia/Kolkata'
 });
 
-// 🧪 Optional: Run once immediately for testing
-fetchPrices();
 
 console.log("🕒 Cron job scheduled (Mon–Fri @ 10AM, 12PM, 2PM, 4PM IST)");
