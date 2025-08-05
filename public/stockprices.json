@@ -1,13 +1,13 @@
 {
-  "timestamp": "2025-08-05T04:31:46.826Z",
+  "timestamp": "2025-08-05T04:32:25.552Z",
   "prices": {
     "JWL.NS": {
       "name": "Jupiter Wagons",
-      "price": 346.05
+      "price": 345.8
     },
     "OLECTRA.NS": {
       "name": "Olectra Greentech",
-      "price": 1436.2
+      "price": 1439.1
     }
   }
 }
