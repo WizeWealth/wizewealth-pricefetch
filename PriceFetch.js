@@ -6,7 +6,10 @@ import simpleGit from 'simple-git';
 
 const STOCK_SYMBOLS = {
   "JWL.NS": "Jupiter Wagons",
-  "OLECTRA.NS": "Olectra Greentech"
+  "OLECTRA.NS": "Olectra Greentech",
+  "KALYANKJIL.NS": "Kalyan Jewellers",
+  "HSCL.NS": "Himadri Speciality Chemical",
+  "PGEL.NS": "PG Electroplast"
 };
 
 const OUTPUT_PATH = path.join("public", "stockprices.json");
