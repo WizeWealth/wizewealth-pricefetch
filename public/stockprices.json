@@ -1,25 +1,25 @@
 {
-  "timestamp": "2025-08-19T04:30:00.108Z",
+  "timestamp": "2025-08-19T06:30:00.108Z",
   "prices": {
     "JWL.NS": {
       "name": "Jupiter Wagons",
-      "price": 323.9
+      "price": 326
     },
     "OLECTRA.NS": {
       "name": "Olectra Greentech",
-      "price": 1477
+      "price": 1542
     },
     "KALYANKJIL.NS": {
       "name": "Kalyan Jewellers",
-      "price": 504.85
+      "price": 505.45
     },
     "HSCL.NS": {
       "name": "Himadri Speciality Chemical",
-      "price": 476.15
+      "price": 475.4
     },
     "PGEL.NS": {
       "name": "PG Electroplast",
-      "price": 533.9
+      "price": 535.9
     }
   }
 }
